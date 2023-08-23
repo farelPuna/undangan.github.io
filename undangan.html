@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Ulang Tahun</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- icon -->
+    <link rel="shortcut icon" href="download.jpg" type="image/x-icon" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Parisienne&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-bottom" style="background: #a2d9ff">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-danger" aria-current="page" href="#Home"><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#Tanggal"><i class="fa-solid fa-calendar-days"></i> Tanggal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#Lokasi"><i class="fa-solid fa-location-dot"></i> Lokasi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Undangan -->
+    <svg id="Home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,256L30,250.7C60,245,120,235,180,224C240,213,300,203,360,176C420,149,480,107,540,96C600,85,660,107,720,138.7C780,171,840,213,900,240C960,267,1020,277,1080,240C1140,203,1200,117,1260,90.7C1320,64,1380,96,1410,112L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="container-fluid text-center">
+      <h1 class="display-4"><i class="fa-solid fa-cake-candles"></i> Undangan Ulang Tahun <i class="fa-solid fa-cake-candles"></i></h1>
+      <p class="lead">Bergabunglah dalam perayaan ulang tahun kami yang ke- <span class="fw-bold">17</span></p>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,160L40,160C80,160,160,160,240,160C320,160,400,160,480,149.3C560,139,640,117,720,96C800,75,880,53,960,64C1040,75,1120,117,1200,112C1280,107,1360,53,1400,26.7L1440,0L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- Acara -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,256L30,240C60,224,120,192,180,197.3C240,203,300,245,360,234.7C420,224,480,160,540,154.7C600,149,660,203,720,224C780,245,840,235,900,208C960,181,1020,139,1080,112C1140,85,1200,75,1260,80C1320,85,1380,107,1410,117.3L1440,128L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="container-fluid text-center mt-4">
+      <p class="fs-1 fw-bold text-center mb-5" style="font-family: 'Nova Mono', monospace; font-family: 'Parisienne', cursive" id="Tanggal">Waktu Menuju Acara</p>
+
+      <!-- waktu -->
+      <div class="container">
+        <p class="card-header bg-dark text-light fs-2 font-monospace rounded-5 shadow mb-3" id="clock"></p>
+      </div>
+      <h1 style="font-family: 'Nova Mono', monospace; font-family: 'Parisienne', cursive" class="fst-italic mb-3 mt-5">Assalamualaikum Warahmatullahi Wabarakatuh</h1>
+      <p class="font-monospace fs-6">Tanpa mengurangi rasa hormat. Kami mengundang Saudara/i serta kerabat sekalian untuk menghadiri acara Ulang Tahun kami..</p>
+      <p class="text-center fw-bold fs-3" style="font-family: 'Nova Mono', monospace; font-family: 'Parisienne', cursive">Acara</p>
+      <p class="fw-bold">Pukul : 19.00 WIB - Selesai</p>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,32L30,32C60,32,120,32,180,37.3C240,43,300,53,360,80C420,107,480,149,540,181.3C600,213,660,235,720,245.3C780,256,840,256,900,240C960,224,1020,192,1080,176C1140,160,1200,160,1260,181.3C1320,203,1380,245,1410,266.7L1440,288L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- lokasi -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="Lokasi">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,128L30,122.7C60,117,120,107,180,138.7C240,171,300,245,360,277.3C420,309,480,299,540,250.7C600,203,660,117,720,90.7C780,64,840,96,900,133.3C960,171,1020,213,1080,192C1140,171,1200,85,1260,80C1320,75,1380,149,1410,186.7L1440,224L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+      ></path>
+    </svg>
+    <h1 class="text-center fw-bold fs-1 mb-5" style="font-family: 'Nova Mono', monospace; font-family: 'Parisienne', cursive">Lokasi</h1>
+    <div class="container">
+      <div class="map text-center" height="200px" width="250px">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15843.510722415147!2d109.4616075!3d-6.9052276500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1692620235556!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,32L30,58.7C60,85,120,139,180,149.3C240,160,300,128,360,117.3C420,107,480,117,540,133.3C600,149,660,171,720,165.3C780,160,840,128,900,112C960,96,1020,96,1080,117.3C1140,139,1200,181,1260,197.3C1320,213,1380,203,1410,197.3L1440,192L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+      ></path>
+    </svg>
+  </body>
+  <script>
+    function updateClock() {
+      const eventDate = new Date("2023-09-2 19:00:00");
+      const now = new Date().getTime();
+      const timeRemaining = eventDate - now;
+
+      if (timeRemaining > 0) {
+        const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+        const clockElement = document.getElementById("clock");
+        clockElement.innerHTML = `${days} Hari   ${hours} Jam   ${minutes} Menit   ${seconds} Detik`;
+      } else {
+        const clockElement = document.getElementById("clock");
+        clockElement.innerHTML = "Acara telah dimulai!";
+      }
+    }
+
+    setInterval(updateClock, 1000);
+
+    updateClock();
+  </script>
+</html>
